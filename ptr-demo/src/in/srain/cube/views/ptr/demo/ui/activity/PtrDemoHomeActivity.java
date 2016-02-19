@@ -1,6 +1,8 @@
 package in.srain.cube.views.ptr.demo.ui.activity;
 
 import android.os.Bundle;
+import android.util.Log;
+
 import in.srain.cube.mints.base.MintsBaseActivity;
 import in.srain.cube.views.ptr.demo.R;
 import in.srain.cube.views.ptr.demo.ui.PtrDemoHomeFragment;
@@ -12,6 +14,7 @@ public class PtrDemoHomeActivity extends MintsBaseActivity {
         super.onCreate(bundle);
         setContentView(R.layout.activity_main);
         pushFragmentToBackStack(PtrDemoHomeFragment.class, null);
+        Log.d("asdaads","akjdkljsdklasd");
     }
 
     @Override
